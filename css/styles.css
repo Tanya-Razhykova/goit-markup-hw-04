@@ -258,6 +258,7 @@ hr {
     padding-bottom: 30px;
     background-color: var(--color-white);
     border-style: none;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .text-profession {
