@@ -170,17 +170,14 @@ hr {
     background-color: #2F303A;
 }
 
-.advantages {
-    margin-bottom: 94px;
-}
-
 .list.advantages {
     display: inline-block;
     width: 270px;
+    margin-bottom: 94px;
 }
 
 .list.advantages:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .main-title-3 {
