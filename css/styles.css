@@ -484,12 +484,20 @@ hr {
     font-style: normal;
 }
 
-.page-footer {
+.footer-page {
     display: flex;
 }
 
 .link.footer {
     color: var(--color-light-grey);
+}
+
+.footer {
+    margin-right: 70px;
+}
+
+.social-nav-footer {
+    margin: 0;
 }
 
 .page-footer {
@@ -508,6 +516,8 @@ hr {
 
 .social-footer {
     display: block;
+    padding-top: 12px;
+    padding-bottom: 100px;
 }
 
 .social-title {
