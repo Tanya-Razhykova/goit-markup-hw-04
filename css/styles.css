@@ -484,6 +484,10 @@ hr {
     font-style: normal;
 }
 
+.page-footer {
+    display: flex;
+}
+
 .link.footer {
     color: var(--color-light-grey);
 }
@@ -497,7 +501,28 @@ hr {
     padding-top: 60px;
 }
 
-logo.link.footer {
+.logo.link.footer {
     display: block;
     margin-right: 0px;
+}
+
+.social-footer {
+    display: block;
+}
+
+.social-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.social-item {
+    display: flex;
+    justify-content: center;
 }
