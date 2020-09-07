@@ -273,6 +273,20 @@ hr {
     margin-bottom: 0;
 }
 
+.clients {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 94px;
+}
+
 .post {
     font-weight: normal;
     font-size: 14px;
