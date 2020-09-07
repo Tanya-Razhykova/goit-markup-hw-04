@@ -295,6 +295,11 @@ hr {
     display: block;
 }
 
+.clients-box:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 .list-clients {
     margin: 0;
     display: flex;
