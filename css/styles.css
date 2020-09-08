@@ -486,17 +486,22 @@ hr {
 
 .footer-page {
     display: flex;
+    /* height: 292px; */
 }
 
 .link.footer {
     color: var(--color-light-grey);
 }
 
-.footer {
+.footer-address {
     margin-right: 70px;
+    padding-top: 60px;
 }
 
 .social-nav-footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
     margin: 0;
 }
 
@@ -506,7 +511,6 @@ hr {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 60px;
 }
 
 .logo.link.footer {
@@ -516,7 +520,7 @@ hr {
 
 .social-footer {
     display: block;
-    padding-top: 12px;
+    padding-top: 72px;
     padding-bottom: 100px;
 }
 
@@ -535,4 +539,28 @@ hr {
 .social-item {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link {
+    display: flex;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+    background: var(--color-blue);
+}
+
+.footer-icon {
+    /* width: 20px;
+    height: 20px; */
+    fill: var(--color-white);
 }
