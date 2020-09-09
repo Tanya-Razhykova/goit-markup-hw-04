@@ -363,6 +363,7 @@ hr {
 .social-icon-team:hover,
 .social-icon-team:focus {
     fill: var(--color-white);
+    background: var(--color-blue);
 }
 
 .clients {
